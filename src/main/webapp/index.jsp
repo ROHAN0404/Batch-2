@@ -10,7 +10,7 @@
   
 <%  
 int number=Integer.parseInt(request.getParameter("id")), firstTerm = 0, secondTerm = 1;
-    out.println("Fibonacci Series till " + n + " terms:");
+    out.println("Fibonacci Series till " + number + " terms:");
 
     for (int i = 1; i <= number; ++i) {
          out.print(firstTerm + ", ");
